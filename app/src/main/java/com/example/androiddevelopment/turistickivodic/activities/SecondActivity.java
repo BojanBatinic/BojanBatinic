@@ -27,6 +27,8 @@ import com.j256.ormlite.android.apptools.OpenHelperManager;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
+import static com.example.androiddevelopment.turistickivodic.activities.MainActivity.NOTIFICATION_TOAST;
+
 /**
  * Created by androiddevelopment on 29.11.17..
  */
