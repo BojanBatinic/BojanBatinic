@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Turisticka Atrakcija</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_main_dialog">Add</string>
+    <string name="dialog_add_info_main">Dodati novu atrakciju</string>
+    <string name="edit_atrakcija">Edit</string>
+    <string name="delete_atrakcija">Delete</string>
+    <string name="dialog_delete_atrakcija">Atrakcija ce biti obrisana</string>
+    <string name="dialog_update_atrakcija">Atrakcija ce biti izmenjena</string>
+
+    <string name="prefs_toast_summary">Show notifications as Toast messages</string>
+    <string name="prefs_toast_title">Toast Notifications</string>
+    <string name="prefs_status_summary">Show notifications as Status Bar messages</string>
+    <string name="prefs_status_title">Status Bar Notifications</string>
+    <string name="open_navigation_drawer">Open Navigation Drawer</string>
+    <string name="close_navigation_drawer">Close Navigation Drawer</string>
+</resources>

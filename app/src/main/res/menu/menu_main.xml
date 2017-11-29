@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nikola.zadataktest.activities.MainActivity">
+
+    <item
+        android:id="@+id/action_add_dialog"
+        android:icon="@drawable/ic_action_add"
+        android:orderInCategory="100"
+        android:title="@string/action_add_main_dialog"
+        app:showAsAction="ifRoom" />
+
+</menu>

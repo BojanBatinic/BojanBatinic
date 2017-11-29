@@ -8,6 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.androiddevelopment.turistickivodic.R;
+
 import java.util.ArrayList;
 
 /**

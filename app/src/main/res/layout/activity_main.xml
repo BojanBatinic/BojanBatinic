@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.androiddevelopment.turistickivodic.activities.MainActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <!--Drawer Layout-->
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main List View -->
+        <ListView
+            android:id="@+id/lv_main_list_items"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/drawer_pane"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <!-- List Of Actions-->
+            <ListView
+                android:id="@+id/drawer_navigation_list"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:background="#FFFFFF"/>
+            <!-- android:background="@android:color/transparent"-->
+
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

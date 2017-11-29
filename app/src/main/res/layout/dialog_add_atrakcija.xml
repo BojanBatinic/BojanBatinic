@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_add_info_main"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/et_dialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Naziv atrakcije:"/>
+    <EditText
+        android:id="@+id/et_dialog_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Opis atrakcije:"/>
+    <EditText
+        android:id="@+id/et_dialog_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresa atrakcije:"/>
+    <EditText
+        android:id="@+id/et_dialog_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Broj telefona:"/>
+
+    <EditText
+        android:id="@+id/et_dialog_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Web stranica:"/>
+    <EditText
+        android:id="@+id/et_dialog_radno_vreme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Radno vreme:"/>
+    <EditText
+        android:id="@+id/et_dialog__ulaznice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cena ulaznice:"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OK"/>
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"/>
+    </LinearLayout>
+</LinearLayout>

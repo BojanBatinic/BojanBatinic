@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androiddevelopment.turistickivodic.activities.SecondActivity">
+
+    <include layout="@layout/toolbar"/>
+
+        <EditText
+            android:id="@+id/et_detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ime atrakcije:"/>
+        <EditText
+            android:id="@+id/et_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Opis atrakcije:"/>
+        <EditText
+            android:id="@+id/et_detail_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresa atrakcije:"/>
+        <EditText
+            android:id="@+id/et_detail_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Broj telefona:"/>
+
+        <EditText
+            android:id="@+id/et_detail_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Web adresa:"/>
+        <EditText
+            android:id="@+id/et_detail_radno_vreme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Radno vreme:"/>
+        <EditText
+            android:id="@+id/et_detail_ulaznice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cena ulaznice:"/>
+
+</LinearLayout>

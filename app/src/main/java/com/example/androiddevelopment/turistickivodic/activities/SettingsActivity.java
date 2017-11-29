@@ -7,6 +7,8 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 
+import com.example.androiddevelopment.turistickivodic.R;
+
 /**
  * Created by androiddevelopment on 29.11.17..
  */
@@ -18,7 +20,7 @@ public class SettingsActivity extends PreferenceActivity {
         super.onCreate(savedInstanceState);
 
         getFragmentManager().beginTransaction()
-                .replace(android.R.id.content, new SecondActivity.PrefsFragment())
+                .replace(android.R.id.content, new PrefsFragment())
                 .commit();
     }
 
@@ -40,4 +42,5 @@ public class SettingsActivity extends PreferenceActivity {
             addPreferencesFromResource(R.xml.preferences);
         }
     }
+
 }

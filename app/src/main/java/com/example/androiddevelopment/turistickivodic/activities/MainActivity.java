@@ -21,6 +21,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.androiddevelopment.turistickivodic.R;
 import com.example.androiddevelopment.turistickivodic.adapters.DrawerListAdapter;
 import com.example.androiddevelopment.turistickivodic.adapters.NavigationItem;
 import com.example.androiddevelopment.turistickivodic.db.DatabaseHelper;
@@ -156,16 +157,16 @@ public class MainActivity extends AppCompatActivity {
 
     private void addAtrakcijaDialog() {
         final Dialog dialog = new Dialog(this);
-        dialog.setContentView(R.layout.dialog_add_estate);
+        dialog.setContentView(R.layout.dialog_add_atrakcija);
         dialog.setCancelable(false);
 
         final EditText etName = (EditText)dialog.findViewById(R.id.et_dialog_name);
         final EditText etDescription = (EditText)dialog.findViewById(R.id.et_dialog_description);
         final EditText etAddress = (EditText)dialog.findViewById(R.id.et_dialog_address);
         final EditText etPhoneNumber = (EditText)dialog.findViewById(R.id.et_dialog_phone_number);
-        final EditText etWebAdresa = (EditText)dialog.findViewById(R.id.et_dialog_web_adresa);
+        final EditText etWebAdresa = (EditText)dialog.findViewById(R.id.et_dialog_web);
         final EditText etRadnoVreme = (EditText)dialog.findViewById(R.id.et_dialog_radno_vreme);
-        final EditText etUlaznica = (EditText)dialog.findViewById(R.id.et_dialog_ulaznica);
+        final EditText etUlaznica = (EditText)dialog.findViewById(R.id.et_dialog__ulaznice);
 
 
         Button btnOK = (Button)dialog.findViewById(R.id.btn_dialog_ok);

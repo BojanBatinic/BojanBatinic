@@ -19,6 +19,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.androiddevelopment.turistickivodic.R;
 import com.example.androiddevelopment.turistickivodic.adapters.NavigationItem;
 import com.example.androiddevelopment.turistickivodic.db.DatabaseHelper;
 import com.example.androiddevelopment.turistickivodic.model.Atrakcija;
@@ -54,7 +55,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_second);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) setSupportActionBar(toolbar);
 
@@ -68,7 +69,7 @@ public class SecondActivity extends AppCompatActivity {
             etPhoneNumber = (EditText)findViewById(R.id.et_detail_phone_number);
             etWebAdresa = (EditText)findViewById(R.id.et_detail_web);
             etRadnoVreme = (EditText)findViewById(R.id.et_detail_radno_vreme);
-            etUlaznica = (EditText)findViewById(R.id.et_detail_ulaznica);
+            etUlaznica = (EditText)findViewById(R.id.et_detail_ulaznice);
 
             etName.setText(atrakcija.getName());
             etDescription.setText(atrakcija.getDescription());
@@ -124,7 +125,7 @@ public class SecondActivity extends AppCompatActivity {
         LayoutInflater inflater = getLayoutInflater();
         View alertLayout = inflater.inflate(android.R.layout.select_dialog_item, null);
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
-        alert.setMessage(R.string.dialog_delete_estate);
+        alert.setMessage(R.string.dialog_delete_atrakcija);
 
         alert.setView(alertLayout);
         alert.setCancelable(false);
@@ -161,7 +162,7 @@ public class SecondActivity extends AppCompatActivity {
         LayoutInflater inflater = getLayoutInflater();
         View alertLayout = inflater.inflate(android.R.layout.select_dialog_item, null);
         final AlertDialog.Builder alert = new AlertDialog.Builder(this);
-        alert.setMessage(R.string.dialog_update_estate);
+        alert.setMessage(R.string.dialog_update_atrakcija);
 
         alert.setView(alertLayout);
         alert.setCancelable(false);
